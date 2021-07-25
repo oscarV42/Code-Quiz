@@ -229,7 +229,7 @@ submitBtn.addEventListener('click', function(event){
             localStorage.setItem('user-cred', JSON.stringify(user));
         }
         // sends user to highscore webpage after submission
-        location.href = '/highscores.html';
+        location.href = 'https://oscarv42.github.io/Code-Quiz/highscores.html';
     }
     
 });
