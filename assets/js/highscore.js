@@ -8,7 +8,7 @@ var list = [];
 // event listener for go back button
 backBtn.addEventListener('click', function(){
     // sends user to code quiz webpage
-    location.href = '/index.html'
+    location.href = 'https://oscarv42.github.io/Code-Quiz/'
 });
 
 // initial function
