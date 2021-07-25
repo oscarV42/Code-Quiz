@@ -1,0 +1,148 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  display: flexbox;
+  font-family: sans-serif;
+  background-color: #c7d5e4;
+}
+
+header {
+  justify-content: space-between;
+  display: flex;
+}
+header h4 {
+  margin-left: 15px;
+}
+header #timer {
+  margin-right: 15px;
+}
+
+#start-screen {
+  margin-top: 5%;
+  display: flexbox;
+  justify-content: center;
+}
+
+#start-screen h1 {
+  text-align: center;
+}
+
+#start-screen p {
+  line-height: 25px;
+  margin-left: 35%;
+  font-size: 20px;
+  width: 30%;
+  text-align: center;
+}
+
+#start-screen button {
+  font-size: 20px;
+  color: #c7d5e4;
+  background-color: #088138;
+  margin: 0;
+  position: absolute;
+  margin-top: 15px;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#questions {
+  display: none;
+  margin-top: 5%;
+  justify-content: flex-start;
+}
+
+#questions h1 {
+  width: 45%;
+  display: flex;
+  margin-left: 30%;
+}
+
+.choice {
+  display: flex;
+  font-size: 20px;
+  color: #c7d5e4;
+  background-color: #088138;
+  position: relative;
+  margin-top: 15px;
+
+  left: 28.5%;
+}
+
+#end-screen {
+  margin-top: 5%;
+  display: none;
+}
+
+#end-screen #title {
+  text-align: center;
+}
+
+#end-screen #user-score {
+  font-size: 20px;
+  text-align: center;
+}
+
+.credentials {
+  margin-left: 41%;
+  align-content: center;
+  display: inline-flexbox;
+}
+
+.credentials #enter {
+  display: inline-flex;
+  font-size: 15px;
+}
+
+.credentials button {
+  color: #c7d5e4;
+  background-color: #088138;
+}
+
+.highscore-page {
+  margin-top: 10%;
+  display: flexbox;
+  align-content: center;
+}
+
+.highscore-page h1 {
+  font-size: 35px;
+  text-align: center;
+}
+
+.highscore-page #highscores {
+  margin-left: 42.3%;
+}
+
+#highscores li {
+  list-style: none;
+  width: 25%;
+  padding-left: 15px;
+  border-top: 2px solid black;
+}
+
+.highscore-page #buttons {
+  text-align: center;
+}
+
+.highscore-page button {
+  font-size: 15px;
+  color: #c7d5e4;
+  background-color: #088138;
+  margin-left: 10px;
+}
+
+a {
+  color: #088138;
+  text-decoration: none;
+}
+
+a:link::before,
+a:link::after {
+  color: #088138;
+}
